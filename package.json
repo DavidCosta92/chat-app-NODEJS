@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "handsonlab10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node .",
+    "test": "nodemon -e 'js' .e"
+  },
+  "engines": {
+    "node": "15.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.2",
+    "socket.io": "^4.6.1"
+  }
+}
