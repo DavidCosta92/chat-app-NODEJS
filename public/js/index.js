@@ -1,5 +1,5 @@
 // @ts-nocheck
-const serverSocket = io('http://localhost:8080');
+const serverSocket = io(); // io('http://localhost:8080');  =>esta forma es para que sea local... io sin argumentos, toma la raiz del servidor!!! para deploy
 
 const button = document.querySelector('#btnEnviar')
 
